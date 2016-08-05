@@ -1,0 +1,26 @@
+<html ng-app="SetView">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway|Open+Sans' rel='stylesheet' type='text/css'>
+  <title>Set View</title>
+  {% include 'styles.html' %}
+</head>
+<body>
+  <base href="/"/>
+  <div class="route-list nav-links">
+    <ul>
+      <li>
+        <a>Sets</a>
+      </li>
+      <li>
+        <a>Newest</a>
+      </li>
+      <li>
+        <a>Popular</a>
+      </li>
+    </ul>
+  </div>
+
+  {% include 'scripts.html' %}
+  <ng-view></ng-view>
+</body>
+</html>

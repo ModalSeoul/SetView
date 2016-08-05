@@ -1,0 +1,47 @@
+/*
+This CSS is garbage. Reason is because I wrote in while using SCSS, but then
+decided that I didn't want to continue to use SCSS for such a small project.
+So I just converted the SCSS I had.
+*/
+.route-list ul hr {
+  height: 6px;
+  border: 0;
+  visibility: hidden;
+}
+.route-list li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.route-list li a:visited {
+  color: white;
+}
+.route-list li {
+  list-style-type: none;
+}
+.route-list li:hover {
+  color: #DDDDDD;
+  background-color: #2B333B;
+}
+.nav-links {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-links h1 {
+  float: left;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.nav-links li a {
+  float:left;
+  transition: all .3s linear;
+  padding: 1rem;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+.nav-links li a:hover {
+  background-color: #2caff0;
+}

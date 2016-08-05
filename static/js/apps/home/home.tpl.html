@@ -1,0 +1,34 @@
+<div ng-controller="HomeController" class="container">
+  <h3>Sets:<strong> {{data.length}}</strong></h3>
+  <div class="_sets">
+    <span ng-repeat="set in data">
+      <div class="_set">
+
+        <div class="set-image">
+          <img id="set-img" ng-src="{{set.image}}">
+          <span class="export">
+            <div class="export-button">Export</div>
+          </span>
+        </div>
+        <ul class="set-list">
+          <li>
+            Head:<strong>{{set.helmet}}</strong>
+          </li>
+          <li>
+            Chest:<strong>{{set.chest}}</strong>
+          </li>
+          <li>
+            Hands:<strong>{{set.hands}}</strong>
+          </li>
+          <li>
+            Legs:<strong>{{set.legs}}</strong>
+          </li>
+          <li>
+            Feet:<strong>{{set.feet}}</strong>
+          </li>
+        </ul>
+
+      </div>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Open+Sans);
+
+body {
+  background-color: #1d1d1d;
+  color: #2CAAFF;
+  font-family: 'Raleway';
+}
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+._set {
+  display:flex;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 25%;
+  margin: 5px;
+}
+.set-image {
+  flex-direction: column;
+  align-items:flex-start;
+}
+.set-list {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.export-button {
+  transition: all .3s linear;
+  background-color: #1d1d1d;
+  color: white;
+  text-align: center;
+}
+.export {
+  flex-direction: column;
+  align-self: center;
+}
+.export-button:hover {
+  background-color: rgba(44, 170, 255, 0.4);
+}
+#set-img {
+  width: 250px;
+  height: 350px;
+}
